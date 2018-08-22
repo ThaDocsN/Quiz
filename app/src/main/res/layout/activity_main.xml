@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:divider="?android:dividerHorizontal"
+    android:orientation="vertical"
+    android:showDividers="middle"
+    tools:context="com.example.charles.finalquiz.MainActivity">
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/what_is_your_name"
+        android:inputType="textPersonName" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Choose One" />
+
+    <TextView
+        android:id="@+id/blackHistory"
+        style="@style/textStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/padding"
+        android:layout_marginEnd="@dimen/padding"
+        android:layout_marginStart="@dimen/padding"
+        android:text="@string/black_history" />
+
+    <TextView
+        android:id="@+id/chess"
+        style="@style/textStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/padding"
+        android:layout_marginEnd="@dimen/padding"
+        android:layout_marginStart="@dimen/padding"
+        android:gravity="center_vertical"
+        android:text="@string/do_you_play_chess" />
+
+
+</LinearLayout>

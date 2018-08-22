@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Quiz</string>
+    <string name="what_is_your_name">Enter your name?</string>
+    <string name="black_history">Black History</string>
+    <string name="do_you_play_chess">Chess</string>
+    <string name="questionOne">What colors symbolises black pride?</string>
+    <string name="queThree">Why do African Americans celebrate Juneteenth?</string>
+    <string name="rb1WrongAnswerQuestion3">It is in June</string>
+    <string name="rb2CorrectAnswerQuestion3">Juneteenth is the oldest known celebration commemorating the ending of slavery in the United States.</string>
+    <string name="rb3WrongAnswerQuestion3">Free food</string>
+    <string name="red">red</string>
+    <string name="black">black</string>
+    <string name="blue">blue</string>
+    <string name="questionTwo">Who were the creators of Black History Month?</string>
+    <string name="carter_g_woodson">Carter G. Woodson</string>
+    <string name="ben_carson">Ben Carson</string>
+    <string name="chkbxThreeQueTwo">the Association for the Study of Negro Life and History</string>
+    <string name="questionThree">Why do African Americans celebrate Juneteenth?</string>
+    <string name="questionFour">What is the maximum number of squares can a pawn move on first its first move?</string>
+    <string name="rb1ChessQueOne">1</string>
+    <string name="rb2ChessQueOne">2</string>
+    <string name="rb3ChessQueOne">3</string>
+    <string name="questionFive">How many points are the rooks worth?</string>
+    <string name="rb1ChessQueTwo">5</string>
+    <string name="rb2ChessQueTwo">6</string>
+    <string name="rb3ChessQueTwo">7</string>
+    <string name="questionSix">How many points is the queen worth?</string>
+    <string name="rb1ChessQueThree">7</string>
+    <string name="rb2ChessQueThree">8</string>
+    <string name="rb3ChessQueThree">9</string>
+    <string name="summaryMessage">Hello, %1$s! You got %2$d correct.</string>
+    <string name="submit">submit</string>
+    <string name="_00">00</string>
+    <string name="openAnswer">What is a tie or a draw called in chess?</string>
+    <string name="answer">Answer</string>
+</resources>

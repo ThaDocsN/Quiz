@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.charles.quiz.Chess">
+
+
+    <LinearLayout
+        android:id="@+id/lLayoutMainChess"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/tvOpenAnswer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="@dimen/padding"
+            android:paddingEnd="@dimen/padding"
+            android:text="@string/openAnswer" />
+
+        <EditText
+            android:id="@+id/etOpenAnswer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="@dimen/padding"
+            android:paddingEnd="@dimen/padding"
+            android:hint="@string/answer"
+            android:inputType="textPersonName"
+            android:textAllCaps="true" />
+
+        <ViewFlipper
+            android:id="@+id/simpleViewer1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:id="@+id/lLayoutChess"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingEnd="@dimen/padding"
+                android:paddingStart="@dimen/padding"
+                android:paddingTop="@dimen/padding"
+                android:visibility="visible">
+
+
+                <TextView
+                    android:id="@+id/questionOneChess"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/transparent"
+                    android:paddingEnd="@dimen/padding"
+                    android:paddingLeft="@dimen/padding"
+                    android:paddingRight="@dimen/padding"
+                    android:paddingStart="@dimen/padding"
+                    android:text="@string/questionFour" />
+
+                <RadioGroup
+                    android:id="@+id/rgChessQuestionOne"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <RadioButton
+                        android:id="@+id/rbOneChessQue1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@android:color/transparent"
+                        android:text="@string/rb1ChessQueOne"
+                        android:textAllCaps="true" />
+
+                    <RadioButton
+                        android:id="@+id/rbTwoChessQue1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@android:color/transparent"
+                        android:text="@string/rb2ChessQueOne"
+                        android:textAllCaps="true" />
+
+                    <RadioButton
+                        android:id="@+id/rbThreeChessQue1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@android:color/transparent"
+                        android:text="@string/rb3ChessQueOne"
+                        android:textAllCaps="true" />
+                </RadioGroup>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lLayoutChess2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingEnd="@dimen/padding"
+                android:paddingStart="@dimen/padding"
+                android:visibility="visible">
+
+                <TextView
+                    android:id="@+id/questionTwoChess"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/transparent"
+                    android:paddingEnd="@dimen/padding"
+                    android:paddingLeft="@dimen/padding"
+                    android:paddingRight="@dimen/padding"
+                    android:paddingStart="@dimen/padding"
+                    android:text="@string/questionFive" />
+
+                <RadioGroup
+                    android:id="@+id/rgChessQuestionTwo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <RadioButton
+                        android:id="@+id/rbOneChessQue2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@android:color/transparent"
+                        android:text="@string/rb1ChessQueTwo"
+                        android:textAllCaps="true" />
+
+                    <RadioButton
+                        android:id="@+id/rbTwoChessQue2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@android:color/transparent"
+                        android:text="@string/rb2ChessQueTwo"
+                        android:textAllCaps="true" />
+
+                    <RadioButton
+                        android:id="@+id/rbThreeChessQue2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@android:color/transparent"
+                        android:text="@string/rb3ChessQueTwo"
+                        android:textAllCaps="true" />
+                </RadioGroup>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lLayoutChess3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingEnd="@dimen/padding"
+                android:paddingStart="@dimen/padding"
+                android:visibility="visible">
+
+                <TextView
+                    android:id="@+id/chessQuestionThree"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/transparent"
+                    android:paddingEnd="@dimen/padding"
+                    android:paddingLeft="@dimen/padding"
+                    android:paddingRight="@dimen/padding"
+                    android:paddingStart="@dimen/padding"
+                    android:text="@string/questionSix" />
+
+                <RadioGroup
+                    android:id="@+id/rgChessQuestionThree"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <RadioButton
+                        android:id="@+id/rbOneChessQue3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@android:color/transparent"
+                        android:text="@string/rb1ChessQueThree"
+                        android:textAllCaps="true" />
+
+                    <RadioButton
+                        android:id="@+id/rbTwoChessQue3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@android:color/transparent"
+                        android:text="@string/rb2ChessQueThree"
+                        android:textAllCaps="true" />
+
+                    <RadioButton
+                        android:id="@+id/rbThreeChessQue3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@android:color/transparent"
+                        android:text="@string/rb3ChessQueThree"
+                        android:textAllCaps="true" />
+                </RadioGroup>
+
+
+            </LinearLayout>
+
+        </ViewFlipper>
+
+        <LinearLayout
+            android:id="@+id/lLChessSummary"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:visibility="invisible">
+
+            <Button
+                android:id="@+id/btSubmitChess"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:paddingEnd="@dimen/padding"
+                android:paddingStart="@dimen/padding"
+                android:text="@string/submit" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</ScrollView>
